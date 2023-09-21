@@ -1,0 +1,23 @@
+name,              pad, chn
+vcc,,2
+REF_OUT,,3
+Refgnd,,4
+Refin,,5
+Vee,,6
+bipolar_Rin,,7
+DacOut,,8
+10V_Span,,9
+20V_Span,,10
+Pwrgnd,,11
+bit12,,12
+bit11,,13
+bit10,,14
+bit9,,15
+bit8,,16
+bit7,,17
+bit6,,18
+bit5,,19
+bit4,,20
+bit3,,21
+bit2,,22
+bit1,,23
