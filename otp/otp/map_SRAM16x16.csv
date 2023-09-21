@@ -1,0 +1,19 @@
+name,              pad, chn
+CK,,13
+CS,,11
+VBNL-N,,21
+WE,,10
+ADDR[7],,7
+VDD,,20
+SA,,22
+VDD33_N,,23
+VSS,,17
+ADDR[8],,8
+ADDR[9],,9
+ADDR[6],,6
+ADDR[5],,5
+ADDR[4],,4
+ADDR[3],,3
+ADDR[2],,2
+ADDR[1],,1
+ADDR[0],,0

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.5">
+	<Instruments>
+		<NIDigitalPatternInstrument name="PXIe6570" numberOfChannels="32" group="Digital" />
+	</Instruments>
+	<Pins>
+		<DUTPin name="ADDR" />
+		<DUTPin name="ADDR2" />
+		<DUTPin name="ADDR3" />
+		<DUTPin name="ADDR4" />
+		<DUTPin name="ADDR5" />
+		<DUTPin name="ADDR6" />
+		<DUTPin name="ADDR7" />
+		<DUTPin name="ADDR8" />
+		<DUTPin name="WE" />
+		<DUTPin name="ADD1" />
+		<DUTPin name="ADD9" />
+		<DUTPin name="CS" />
+	</Pins>
+	<PinGroups>
+		<PinGroup name="ADDR_bus">
+			<PinReference pin="ADDR" />
+			<PinReference pin="ADD1" />
+			<PinReference pin="ADDR2" />
+			<PinReference pin="ADDR3" />
+			<PinReference pin="ADDR4" />
+			<PinReference pin="ADDR5" />
+			<PinReference pin="ADDR6" />
+			<PinReference pin="ADDR7" />
+			<PinReference pin="ADDR8" />
+			<PinReference pin="ADD9" />
+		</PinGroup>
+	</PinGroups>
+	<Sites>
+		<Site siteNumber="0" />
+	</Sites>
+	<Connections>
+		<Connection pin="ADD1" siteNumber="0" instrument="PXIe6570" channel="1" />
+		<Connection pin="ADD9" siteNumber="0" instrument="PXIe6570" channel="9" />
+		<Connection pin="ADDR" siteNumber="0" instrument="PXIe6570" channel="0" />
+		<Connection pin="ADDR2" siteNumber="0" instrument="PXIe6570" channel="2" />
+		<Connection pin="ADDR3" siteNumber="0" instrument="PXIe6570" channel="3" />
+		<Connection pin="ADDR4" siteNumber="0" instrument="PXIe6570" channel="12" />
+		<Connection pin="ADDR5" siteNumber="0" instrument="PXIe6570" channel="5" />
+		<Connection pin="ADDR6" siteNumber="0" instrument="PXIe6570" channel="6" />
+		<Connection pin="ADDR7" siteNumber="0" instrument="PXIe6570" channel="7" />
+		<Connection pin="ADDR8" siteNumber="0" instrument="PXIe6570" channel="8" />
+		<Connection pin="WE" siteNumber="0" instrument="PXIe6570" channel="10" />
+		<Connection pin="CS" siteNumber="0" instrument="PXIe6570" channel="11" />
+	</Connections>
+</PinMap>

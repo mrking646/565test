@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/Timing">
+  <TimingSheet>
+    <TimeSets>
+      <TimeSet name="init">
+        <Period>200 µs</Period>
+        <PinEdges>
+          <PinEdge pin="ADDR_bus">
+            <DriveNonReturn>
+              <On>1 µs</On>
+              <Data>4 µs</Data>
+              <Off>10 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>1 µs</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="WE">
+            <DriveNonReturn>
+              <On>1 µs</On>
+              <Data>4 µs</Data>
+              <Off>10 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>1 µs</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="CS">
+            <DriveNonReturn>
+              <On>1 µs</On>
+              <Data>4 µs</Data>
+              <Off>10 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>1 µs</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="run">
+        <Period>300 µs</Period>
+        <PinEdges>
+          <PinEdge pin="ADDR_bus">
+            <ReturnToLow>
+              <On>1 µs</On>
+              <Data>50 µs</Data>
+              <Return>250 µs</Return>
+              <Off>10 µs</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>1 µs</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="WE">
+            <ReturnToLow>
+              <On>1 µs</On>
+              <Data>50 µs</Data>
+              <Return>250 µs</Return>
+              <Off>10 µs</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>1 µs</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="CS">
+            <ReturnToLow>
+              <On>1 µs</On>
+              <Data>50 µs</Data>
+              <Return>250 µs</Return>
+              <Off>10 µs</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>1 µs</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+    </TimeSets>
+  </TimingSheet>
+</TimingFile>
